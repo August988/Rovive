@@ -1,7 +1,9 @@
 # Rovive
 A short lived Roblox revival based on 2016.
 
-In the Extras folder is an archive of the Discord Server Rovive had,
+Discord: https://discord.gg/PPhWTCzFNx
+
+Website: https://www.rovive.pro/
 
 HOW TO ~~SKID~~ USE CODE
 

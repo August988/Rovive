@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&family=Source+Code+Pro&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
+
+.maintenance {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    background-color: var(--bs-primary);
+    width: fit-content;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.begin h1 {
+    color: white;
+}
+
+.begin p {
+    color: white;
+}
+
+.begin {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    background-color: var(--bs-primary);
+    width: fit-content;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    background: url("/img/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+
+.navbar {
+    background-color: var(--bs-primary);
+}
+
+.navbar a {
+    color: white !important;
+}
+
+a.dropdown-item {
+    color: white !important;
+}
+
+.user-search-item:hover {
+    background-color: var(--bs-secondary-bg) !important;
+}
+
+.game-search-item,
+.game-card-link {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.game-search-item {
+    background-color: var(--bs-secondary-bg) !important;
+    box-shadow: 0 1px 4px 0 rgba(25, 25, 25, 0.3);
+    border-radius: 3px;
+    transition: box-shadow 200ms ease;
+}
+
+.game-search-item:hover {
+    box-shadow: 0 1px 6px 0 rgba(25, 25, 25, 0.75);
+}
+
+.game-card-thumb-container:before {
+    border-radius: 8px;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent !important;
+    transition: opacity 0.3s linear;
+    opacity: 0;
+}
+
+.bg-body-secondary {
+    /*background-color: #3c005a;*/
+}
+
+.nav-underline .nav-link {
+    color: black !important;
+}
+
+.navbar-search-option a {
+    color: black !important;
+}
+
+.navbar-search-option:hover {
+    background-color: var(--bs-tertiary-bg) !important;
+}
+
+.sidebar-toggle-btn {
+    background: transparent;
+    font-size: 1.2rem;
+    aspect-ratio: 1;
+}
+
+.sidebar-toggle-btn i {
+    color: white !important;
+}
+
+.sidebar-toggle-btn:hover {
+    background-color: rgba(95, 95, 95, 0.75) !important;
+}
+
+.sidebar {
+    box-shadow: 10px 1px 10px 0 rgb(0 0 0 / 35%);
+}
+
+.nav-underline .nav-link {
+    color: white !important;
+}
+
+.navbar-search-option a {
+    color: white !important;
+}

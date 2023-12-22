@@ -1,0 +1,31 @@
+/* Placeholder Theme CSS */
+/* Created 3/14/2022 */
+/* Notes: create a dark theme for the site */
+
+/* Modify the background color */
+.navbar-custom {
+    background-color: #00657a;
+}
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+/* Button color */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #007d97 !important;
+}
+/* Center text */
+.text-center {
+    text-align: center;
+}
+/* Improves the appearance of the card */
+.card-radius {
+    border-radius: 10px;
+}
+/* Just center */
+.item-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

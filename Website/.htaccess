@@ -1,0 +1,54 @@
+ErrorDocument 400 /400.php
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteRule ^asset/$ /config/AssetSystem [L]
+
+RewriteEngine On
+RewriteRule ^Asset/$ /config/AssetSystem [L]
+
+RewriteEngine On
+RewriteRule ^game/players/(.*)$ /Game/players [L]
+
+RewriteEngine On
+RewriteRule ^game/validate-machine$ /Game/validate-machine [L]
+
+RewriteEngine On
+RewriteRule ^user/following-exists$ /rbxuser/following-exists [L]
+
+RewriteEngine On
+RewriteRule ^user/get-friendship-count$ /rbxuser/get-friendship-count [L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/catalog/([0-9]+)/.*$
+RewriteRule ^catalog/(.*) /catalogitem?id=%1 [L]
+
+
+RewriteEngine On
+RewriteRule ^users/(.*) /profile?id=$1 [L]
+
+
+RewriteEngine On
+RewriteRule ^games/(\d+)$ /game?id=$1 [L]
+
+
+# remove .php extension
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# remove .html extension
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+# remove directory listing so peakers dont steal (by mack)
+Options -Indexes
+
+# depression

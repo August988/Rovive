@@ -1,0 +1,1 @@
+{"data": { "white":"<?php echo $_POST['text']; ?>", "black":"<?php echo $_POST['text']; ?>" } }
